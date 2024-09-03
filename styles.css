@@ -1,2 +1,54 @@
 
 /* Your CSS Code here. */
+body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 600px;
+            border: 5px solid rgb(4, 255, 4);
+            background-color: rgb(41, 0, 0);
+            margin: 0 auto;
+        }
+        .row {
+            border: 5px solid rgb(255, 188, 188);
+            height: 200px;
+            display: flex;
+        }
+        .col {
+            border: 2px dotted rgb(38, 38, 43);
+            flex: 1;
+        }
+        .col-4 {
+            flex: 0 0 33.333%;
+        }
+        .col-6 {
+            flex: 0 0 50%;
+        }
+        .col-8 {
+            flex: 0 0 66.667%;
+        }
+        .offset-2 {
+            margin-left: 16.667%;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .bg-teal {
+            background-color: teal;
+        }
+        .bg-thistle {
+            background-color: thistle;
+        }
+        .bg-tomato {
+            background-color: tomato;
+        }
+        .bg-turquoise {
+            background-color: turquoise;
+        }
+        .bg-violet {
+            background-color: violet;
+        }
+        .bg-yellowgreen {
+            background-color: yellowgreen;
+        }
